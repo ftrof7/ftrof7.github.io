@@ -16,9 +16,6 @@ function shakeEffect() {
 }
 
 window.onload = function () {
-  const unknownLink = document.getElementById("unknownLink");
-  unknownLink.addEventListener("click", hacking);
-
   const body = document.body;
   const numStars = 100;
 
